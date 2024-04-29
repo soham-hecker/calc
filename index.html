@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <script src="script.js"></script>
+    <title>Sci-Calc</title>
+</head>
+<body>
+    
+    <div class="calc">
+        <div class="top">
+            <div class="title">
+                <h3>CASIO</h3>
+                <P>fx-991MS</P>
+                <h4>S-V.P.A.M.</h4>
+            </div>
+            <div class="solar-panel"><p>2nd edition</p></div>
+        <!-- </div> -->
+        <div class="display"></div>
+        <div class="main">
+            <div class="row-sp">
+                <button class="btn-sp"><div class="txt yellow">SHIFT</div></button>
+                <button class="btn-sp"><div class="txt red">ALPHA</div></button>
+                <button class="dir"><div class="txt yellow">COPY</div></button>
+                <button class="btn-sp"><div class="txt white">MODE</div><div class="txt yellow">CLR</div></button>
+                <button class="btn-sp"><div class="txt white">ON</div></button>
+            </div>
+            <div class="row-sm">
+                <button class="btn-sm">CALC<div class="txt yellow">SOLVE</div><div class="txt red">=</div></button>
+                <button class="btn-sm">f dx<div class="txt yellow">d/dx</div><div class="txt red">:</div></button>
+                <button class="btn-sm x-1">x^-1<div class="txt yellow">x!</div><div class="txt green">LOGIC</div></button>
+                <button class="btn-sm const">CONST<div class="txt yellow">CONV</div></button>
+            </div>
+            <div class="row-sm2">
+                <button class="btn-sm">a b/c<div class="txt yellow">d/c</div></button>
+                <button class="btn-sm">√<div class="txt yellow">∛</div></button>
+                <button class="btn-sm">x^2<div class="txt yellow">x^3</div><div class="txt green">DEC</div></button>
+                <button class="btn-sm">^<div class="txt yellow">√x</div><div class="txt green">HEX</div></button>
+                <button class="btn-sm">log<div class="txt yellow">10^x</div><div class="txt green">BIN</div></button>
+                <button class="btn-sm">ln<div class="txt yellow">e^x</div><div class="txt green">OCT</div><div class="txt red">e</div></button>
+            </div>
+            <div class="row-sm2">
+                <button class="btn-sm">(-)<div class="txt yellow">d/c</div><div class="txt red">A</div></button>
+                <button class="btn-sm">,,,<div class="txt yellow">∛</div></button>
+                <button class="btn-sm">hyp<div class="txt yellow">x^3</div><div class="txt green">DEC</div></button>
+                <button class="btn-sm">sin<div class="txt yellow">sin^-1</div><div class="txt green">D</div></button>
+                <button class="btn-sm">cos<div class="txt yellow">cos^-1</div><div class="txt green">E</div></button>
+                <button class="btn-sm">tan<div class="txt yellow">tan^-1</div><div class="txt green">F</div><div class="txt red">e</div></button>
+            </div>
+            <div class="row-sm2">
+                <button class="btn-sm">(-)<div class="txt yellow">d/c</div><div class="txt red">A</div></button>
+                <button class="btn-sm">,,,<div class="txt yellow">∛</div></button>
+                <button class="btn-sm">hyp<div class="txt yellow">x^3</div><div class="txt green">DEC</div></button>
+                <button class="btn-sm">sin<div class="txt yellow">sin^-1</div><div class="txt green">D</div></button>
+                <button class="btn-sm">cos<div class="txt yellow">cos^-1</div><div class="txt green">E</div></button>
+                <button class="btn-sm">tan<div class="txt yellow">tan^-1</div><div class="txt green">F</div><div class="txt red">e</div></button>
+            </div>
+            <div class="row-lar">
+                <button class="btn-lar">7<div class="txt">M</div></button>
+                <button class="btn-lar">8<div class="txt">G</div></button>
+                <button class="btn-lar">9<div class="txt">T</div></button>
+                <button class="btn-lar del-ac"><div class="red">DEL</div><div class="txt txt-prb yellow">INS</div></button> <!--#to control styling  -->
+                <button class="btn-lar del-ac"><div class="red">AC</div><div class="txt txt-prb"></div></button> <!--#sp-prob: to control styling  -->
+            </div>
+            <div class="row-lar">
+                <button class="btn-lar">4<div class="txt"></div></button>
+                <button class="btn-lar">5<div class="txt"></div></button>
+                <button class="btn-lar">6<div class="txt"></div></button>
+                <button class="btn-lar">X<div class="txt"></div></button>
+                <button class="btn-lar">/<div class="txt"></div></button>    <!-- ### symbol to be changed -->
+            </div>
+            <div class="row-lar">
+                <button class="btn-lar">1<div class="txt"></div></button>
+                <button class="btn-lar" onclick="display()">2<div class="txt"></div></button>
+                <button class="btn-lar">3<div class="txt"></div></button>
+                <button class="btn-lar">+<div class="txt"></div></button>
+                <button class="btn-lar">-<div class="txt"></div></button>
+            </div>
+            <div class="row-lar">
+                <button class="btn-lar">0<div class="txt"></div></button>
+                <button class="btn-lar">.<div class="txt"></div></button>
+                <button class="btn-lar">x10^x<div class="txt"></div></button>
+                <button class="btn-lar">Ans<div class="txt"></div></button>
+                <button class="btn-lar">=<div class="txt"></div></button>
+            </div>
+            
+        </div>
+
+    </div>
+    <br>
+    <hr>
+
+    <!-- <div class="input">
+        <input type="text" placeholder="Your Input">
+    </div> -->
+    
+</body>
+</html>

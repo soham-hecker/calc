@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    position: relative;
+    left:34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.calc{
+    position: relative;
+    display: flex;
+    height: 616px;
+    width: 350px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 12px;
+    /* justify-content: center; */
+    align-items: center;
+    /* overflow:hidden; */
+    top: -23px;
+    size: 0.8rem;
+}
+
+/* .top{
+    width: auto;
+    height: 69px;
+} */
+.title{
+    display: inline;
+    height: 69px;
+    width: 169px;
+    position: relative;
+    top: -23px;
+    left: 37px;
+    overflow: hidden;
+}
+.title h3{
+    padding-bottom: 4px;
+}
+.title p{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+.title h4{
+    font-size: 0.8rem;
+}
+
+.solar-panel{
+    position: relative;
+    height: 49px;
+    width: 176px;
+    background-color: black;
+    top: -76px;
+    right: -140px;
+    border-radius: 8px;
+}
+.solar-panel p{
+    position: relative;
+    bottom: -53px;
+    right: -138px;
+    font-size: 0.69rem;
+}
+
+.display{
+    /* display: inline; */
+    color: black;
+    position: absolute;
+    top: 96px;
+    left: 28px;
+    background-color: rgb(128, 149, 97);
+    width: 294px;
+    height: 69px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+/* .green{
+    background-color: rgb(128, 149, 97);
+    z-index: 1;
+    margin: auto 69px;
+} */
+
+/* .input input{
+    position: relative;
+    top: 272px;
+    left: -206px;
+    height: 23px;
+    width: 69px;
+    background-color: black;
+    align-items: center;
+} */
+
+.main{
+    width: 320px;
+    /* align-items: center; */
+    margin-left: 28px;
+    position: relative;
+    top: 23px;
+}
+.dir div{
+    position: relative;
+    top:-64px;
+}
+.dir .txt{
+    position: relative;
+    top: -41px;
+}
+.row-sm{
+    position: relative;
+    top:10px;
+}
+.row-sm2{
+    position: relative;
+    top:18px;
+}
+.row-sm2 .btn-sm{
+    margin: 7px 0px;
+}
+/* .row-sm2 .btn-sm .txt{
+    top
+} */

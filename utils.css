@@ -1,0 +1,113 @@
+button{
+    cursor: pointer;
+    text-align: center;
+}
+.btn-sp{
+    width: 38px;
+    height: 36px;
+    background-color: rgb(100, 100, 100);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 2px 6px;
+    margin-bottom: 6px;
+}
+.txt{
+    position: relative;
+    top:-23px;
+    font-size: 0.59rem;
+    display: inline;
+    text-align: center;
+}
+.white{
+    color: white;
+    /* margin: 0px 1px; */
+}
+.red{
+    color: red;
+    /* margin: 0px 1px; */
+}
+.yellow{
+    color: yellow;
+    /* margin: 0px 1px; */
+}
+.green{
+    color: rgb(0, 216, 0);
+    /* margin: 0px 1px; */
+}
+.row-sp{
+    position: relative;
+    top: 5px;
+    display: block;
+}
+.dir{
+    position: relative;
+    top: -23px;
+    display: inline;
+    background-color: rgb(26, 25, 25);
+    width: 78px;
+    height: 69px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 23px;
+}
+button{
+    justify-content: space-evenly;
+}
+.btn-sm{
+    width: 50px;
+    height: 27px;
+    background-color: rgb(48, 47, 47);
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.69rem;
+    padding-left: 6px;
+    /* margin-bottom: 8px; */
+}
+.dir{
+    position: relative;
+    top: 11px;
+}
+.const{
+    position: relative;
+    right: -79px;
+}
+.x-1{
+    position: relative;
+    right: -79px;
+}
+.btn-sm .txt{
+    position: relative;
+    left: -15px;
+}
+.row-sm2 .btn-sm{
+    width: 46px;
+}
+.row-sm2 .txt{
+    position: relative;
+    top: -19px;
+}
+.row-lar{
+    position: relative;
+    top: 42px;
+}
+.row-lar .btn-lar{
+    background-color: rgb(48, 47, 47);
+    position: relative;
+    top: -23px;
+    width: 50px;
+    height: 32px;
+    margin: 6.9px 3px;
+    border-radius: 6px;
+}
+.row-lar .btn-lar .red{
+    width: 50px;
+    height: 32px;
+}
+.row-lar .btn-lar .txt-prb{
+    position: relative;
+    top: -54px;
+}
+.del-ac{
+    position: relative;
+    top: -5px;
+}
